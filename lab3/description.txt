@@ -1,0 +1,12 @@
+The project will be a sculpture that will take sound input via sound module,
+the sculpture is expected to respond to certain levels of sound (dB).
+quieter = slower => louder = faster
+
+The motor will run at different speed steps: Full, 3/4, 1/2, or 0 (in either direction)
+
+A push button will change the direction of the fan
+
+A RTC will retrieve the time once when your power the system. Afterwards the clock cycle will
+update the clock, incrementing it every second. (Use a timer interrupt to increment the time)
+
+A LCD screen will display time (HH:MM:SS) , the fan's direction (CW/CC), and speed
